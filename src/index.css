@@ -1,0 +1,65 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: ui-rounded, ui-sans-serif, system-ui, -apple-system, "Segoe UI", "Hiragino Sans", "PingFang SC",
+    "Apple SD Gothic Neo", "Noto Sans Arabic", "Geeza Pro", sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+  --color-navy: #0b1340;
+  --color-navy-deep: #060a26;
+  --color-navy-soft: #16205a;
+  --color-sky: #eaf2ff;
+  --color-sky-deep: #d6e4ff;
+  --color-blue: #2457e6;
+  --color-blue-soft: #8aa8ff;
+  --color-coral: #f26b5b;
+  --color-sun: #ffc93c;
+  --color-grass: #2ebd6b;
+  --color-lavender: #8b7cf6;
+  --shadow-sticker: 5px 6px 0 0 var(--color-navy);
+}
+
+html {
+  scroll-behavior: smooth;
+  -webkit-text-size-adjust: 100%;
+}
+
+@media (prefers-color-scheme: dark) {
+  html {
+    color-scheme: dark;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  *,
+  *::before,
+  *::after {
+    transition-duration: 0.01ms !important;
+    animation: none !important;
+  }
+}
+
+body {
+  @apply bg-sky text-navy antialiased dark:bg-navy-deep dark:text-sky;
+  font-family: var(--font-sans);
+}
+
+:focus-visible {
+  @apply rounded-md outline-2 outline-offset-2 outline-blue;
+}
+
+/* Gentle bobbing for the decorative stickers. */
+@keyframes bob {
+  0%,
+  100% {
+    transform: translateY(0) rotate(var(--tilt, 0deg));
+  }
+  50% {
+    transform: translateY(-8px) rotate(var(--tilt, 0deg));
+  }
+}
+.sticker {
+  animation: bob 5s ease-in-out infinite;
+  filter: drop-shadow(0 6px 10px rgb(11 19 64 / 0.18));
+}

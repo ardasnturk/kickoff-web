@@ -1,0 +1,125 @@
+{
+ "privacy": {
+  "title": "Privacy Policy",
+  "updated": "2026-10-21",
+  "intro": [
+   {
+    "p": "Kickoff is made by JAS Technology. This policy explains what the app stores, where, and why. In short: there are no accounts, no ads and no tracking."
+   }
+  ],
+  "sections": [
+   {
+    "title": "What Kickoff stores on our server",
+    "blocks": [
+     {
+      "p": "To send the notifications you ask for, each device signs in anonymously. Our server (Supabase, hosted by Amazon Web Services in Mumbai, India) then keeps:"
+     },
+     {
+      "ul": [
+       "a random device identifier created by the app, which is not linked to your name, email or Apple Account;",
+       "the push notification token Apple issues for the app, and Live Activity tokens while a Live Activity runs;",
+       "the teams, leagues and matches you follow, and your notification choices;",
+       "the language and time zone of the app, to word and time the notifications.",
+       "a log of the notifications sent, kept for three days so none arrives twice."
+      ]
+     },
+     {
+      "p": "We use this data only to run these features. It is never sold, shared for advertising or combined with other data. Data of a device that hasn't opened Kickoff for six months is deleted automatically, together with its follows and tokens."
+     }
+    ]
+   },
+   {
+    "title": "What stays on your device and in your iCloud",
+    "blocks": [
+     {
+      "ul": [
+       "The prediction game (free virtual coins), your simulations and their history.",
+       "The list of teams and leagues you follow is also kept in your private iCloud so it appears on your other devices."
+      ]
+     },
+     {
+      "p": "We have no access to your iCloud data."
+     }
+    ]
+   },
+   {
+    "title": "AI features",
+    "blocks": [
+     {
+      "p": "Forecast analyses and match commentary are written on your device by Apple Intelligence. Nothing you do is sent to an AI service. Forecasts are calculated on our server from public match data; no personal data is used."
+     }
+    ]
+   },
+   {
+    "title": "Purchases",
+    "blocks": [
+     {
+      "p": "Subscriptions are processed by Apple. We never see your payment details; the app only checks with Apple, on your device, whether a subscription is active."
+     }
+    ]
+   },
+   {
+    "title": "Match data",
+    "blocks": [
+     {
+      "p": "Scores, lineups and statistics come from API-Football. The app asks our server for match data; your device identifier is used only to authorise these requests and is not passed on."
+     }
+    ]
+   },
+   {
+    "title": "Your choices",
+    "blocks": [
+     {
+      "ul": [
+       "Turn notifications off in the app or in iOS Settings at any time.",
+       "Deleting the app removes the data on your device; the server data is deleted after six months without use, or earlier if you write to us.",
+       "You can ask for access to or deletion of the data held for your device: support@ardasnturk.com"
+      ]
+     }
+    ]
+   },
+   {
+    "title": "Children",
+    "blocks": [
+     {
+      "p": "Kickoff is not directed at children under 13 and does not knowingly collect their data."
+     }
+    ]
+   },
+   {
+    "title": "Changes",
+    "blocks": [
+     {
+      "p": "We will update this page when the app's handling of data changes. Last update: 2026-10-21."
+     }
+    ]
+   }
+  ]
+ },
+ "support": {
+  "title": "Support",
+  "updated": "2026-10-21",
+  "intro": [
+   {
+    "p": "Questions, problems or ideas? Write to support@ardasnturk.com. We usually answer within two working days."
+   }
+  ],
+  "sections": [
+   {
+    "title": "Common questions",
+    "blocks": [
+     {
+      "ul": [
+       "**Notifications don't arrive.** Check that notifications for Kickoff are allowed in iOS Settings and that you follow the team (star on its page) or the match (bell on the match page).",
+       "**How do I cancel Kickoff Pro?** Open the Settings app › your name › Subscriptions, or Settings › Manage subscription in Kickoff. Cancel at least 24 hours before the renewal date.",
+       "**I bought Pro but the AI features are locked.** In Kickoff, open Settings › Restore purchases while signed in with the same Apple Account.",
+       "**Why is there no forecast for a match?** The model needs a few league matches of both teams; cup ties and the first weeks of a season often don't have enough yet.",
+       "**Does the prediction game involve money?** No. Coins are free, can't be bought and have no value outside the game.",
+       "**Who provides the data?** Match data comes from API-Football. Forecasts are statistical estimates for entertainment, not betting advice."
+      ]
+     }
+    ]
+   }
+  ]
+ }
+}

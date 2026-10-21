@@ -1,0 +1,125 @@
+{
+ "privacy": {
+  "title": "Gizlilik Politikası",
+  "updated": "2026-10-21",
+  "intro": [
+   {
+    "p": "Kickoff, JAS Technology tarafından geliştirilir. Bu politika uygulamanın neyi, nerede ve neden sakladığını açıklar. Kısaca: hesap yok, reklam yok, takip yok."
+   }
+  ],
+  "sections": [
+   {
+    "title": "Sunucumuzda saklananlar",
+    "blocks": [
+     {
+      "p": "İstediğin bildirimleri gönderebilmek için her cihaz anonim olarak oturum açar. Sunucumuz (Supabase; Amazon Web Services, Mumbai, Hindistan) şunları saklar:"
+     },
+     {
+      "ul": [
+       "uygulamanın oluşturduğu rastgele bir cihaz kimliği; adınla, e-postanla veya Apple Hesabınla ilişkili değildir;",
+       "Apple'ın uygulamaya verdiği bildirim belirteci ve bir Canlı Etkinlik sürerken Canlı Etkinlik belirteçleri;",
+       "takip ettiğin takımlar, ligler ve maçlar ile bildirim tercihlerin;",
+       "bildirimleri doğru dilde ve saatte göndermek için uygulamanın dili ve saat dilimi.",
+       "hiçbir bildirimin iki kez gelmemesi için üç gün tutulan gönderilmiş bildirim kaydı."
+      ]
+     },
+     {
+      "p": "Bu verileri yalnızca bu özellikleri çalıştırmak için kullanırız. Asla satılmaz, reklam için paylaşılmaz ve başka verilerle birleştirilmez. Altı ay boyunca Kickoff'u açmayan bir cihazın verileri, takipleri ve belirteçleriyle birlikte otomatik olarak silinir."
+     }
+    ]
+   },
+   {
+    "title": "Cihazında ve iCloud'unda kalanlar",
+    "blocks": [
+     {
+      "ul": [
+       "Tahmin oyunu (ücretsiz sanal jetonlar), simülasyonların ve geçmişleri.",
+       "Takip ettiğin takım ve lig listesi, diğer cihazlarında da görünmesi için özel iCloud'unda da tutulur."
+      ]
+     },
+     {
+      "p": "iCloud verilerine erişimimiz yoktur."
+     }
+    ]
+   },
+   {
+    "title": "Yapay zekâ özellikleri",
+    "blocks": [
+     {
+      "p": "Tahmin analizleri ve maç anlatımları cihazında Apple Intelligence tarafından yazılır. Yaptığın hiçbir şey bir yapay zekâ servisine gönderilmez. Tahminler sunucumuzda herkese açık maç verilerinden hesaplanır; kişisel veri kullanılmaz."
+     }
+    ]
+   },
+   {
+    "title": "Satın alımlar",
+    "blocks": [
+     {
+      "p": "Abonelikleri Apple işler. Ödeme bilgilerini asla görmeyiz; uygulama yalnızca cihazında Apple'a aboneliğin etkin olup olmadığını sorar."
+     }
+    ]
+   },
+   {
+    "title": "Maç verileri",
+    "blocks": [
+     {
+      "p": "Skorlar, kadrolar ve istatistikler API-Football'dan gelir. Uygulama maç verilerini sunucumuzdan ister; cihaz kimliğin yalnızca bu istekleri yetkilendirmek için kullanılır ve kimseyle paylaşılmaz."
+     }
+    ]
+   },
+   {
+    "title": "Seçimlerin",
+    "blocks": [
+     {
+      "ul": [
+       "Bildirimleri uygulamadan veya iOS Ayarlar'dan istediğin zaman kapatabilirsin.",
+       "Uygulamayı silmek cihazındaki verileri siler; sunucudaki veriler altı ay kullanılmadığında, ya da bize yazarsan daha önce silinir.",
+       "Cihazın için tutulan verilere erişim veya silinmesini isteyebilirsin: support@ardasnturk.com"
+      ]
+     }
+    ]
+   },
+   {
+    "title": "Çocuklar",
+    "blocks": [
+     {
+      "p": "Kickoff 13 yaş altındaki çocuklara yönelik değildir ve bilerek onların verilerini toplamaz."
+     }
+    ]
+   },
+   {
+    "title": "Değişiklikler",
+    "blocks": [
+     {
+      "p": "Uygulamanın verileri işleme şekli değiştiğinde bu sayfayı güncelleriz. Son güncelleme: 2026-10-21."
+     }
+    ]
+   }
+  ]
+ },
+ "support": {
+  "title": "Destek",
+  "updated": "2026-10-21",
+  "intro": [
+   {
+    "p": "Sorun, soru veya fikrin mi var? support@ardasnturk.com adresine yaz. Genellikle iki iş günü içinde yanıtlarız."
+   }
+  ],
+  "sections": [
+   {
+    "title": "Sık sorulanlar",
+    "blocks": [
+     {
+      "ul": [
+       "**Bildirimler gelmiyor.** iOS Ayarlar'da Kickoff bildirimlerine izin verildiğini ve takımı (sayfasındaki yıldız) ya da maçı (maç sayfasındaki zil) takip ettiğini kontrol et.",
+       "**Kickoff Pro'yu nasıl iptal ederim?** Ayarlar uygulaması › adın › Abonelikler'i ya da Kickoff'ta Ayarlar › Aboneliği yönet'i aç. Yenileme tarihinden en az 24 saat önce iptal et.",
+       "**Pro satın aldım ama yapay zekâ özellikleri kilitli.** Aynı Apple Hesabıyla oturum açıkken Kickoff'ta Ayarlar › Satın alımları geri yükle'ye dokun.",
+       "**Bir maç için neden tahmin yok?** Model iki takımın da birkaç lig maçına ihtiyaç duyar; kupa maçlarında ve sezonun ilk haftalarında çoğu zaman henüz yeterli veri olmaz.",
+       "**Tahmin oyununda para var mı?** Hayır. Jetonlar ücretsizdir, satın alınamaz ve oyun dışında hiçbir değeri yoktur.",
+       "**Verileri kim sağlıyor?** Maç verileri API-Football'dan gelir. Tahminler eğlence amaçlı istatistiksel tahminlerdir, bahis tavsiyesi değildir."
+      ]
+     }
+    ]
+   }
+  ]
+ }
+}

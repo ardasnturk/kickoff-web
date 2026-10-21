@@ -1,0 +1,125 @@
+{
+ "privacy": {
+  "title": "Informativa sulla privacy",
+  "updated": "2026-10-21",
+  "intro": [
+   {
+    "p": "Kickoff è sviluppata da JAS Technology. Questa informativa spiega cosa salva l'app, dove e perché. In breve: niente account, niente pubblicità e nessun tracciamento."
+   }
+  ],
+  "sections": [
+   {
+    "title": "Cosa salva Kickoff sul nostro server",
+    "blocks": [
+     {
+      "p": "Per inviarti le notifiche che richiedi, ogni dispositivo accede in forma anonima. Il nostro server (Supabase, ospitato da Amazon Web Services a Mumbai, in India) conserva quindi:"
+     },
+     {
+      "ul": [
+       "un identificativo casuale del dispositivo creato dall'app, non collegato al tuo nome, alla tua email o al tuo Account Apple;",
+       "il token per le notifiche push che Apple rilascia per l'app e, mentre un'Attività in tempo reale è in corso, i relativi token;",
+       "le squadre, i campionati e le partite che segui e le tue scelte sulle notifiche;",
+       "la lingua e il fuso orario dell'app, per formulare le notifiche e inviarle al momento giusto.",
+       "un registro delle notifiche inviate, conservato per tre giorni affinché nessuna arrivi due volte."
+      ]
+     },
+     {
+      "p": "Usiamo questi dati solo per far funzionare queste funzioni. Non vengono mai venduti, condivisi a fini pubblicitari né combinati con altri dati. I dati di un dispositivo che non apre Kickoff da sei mesi vengono eliminati automaticamente, insieme ai suoi elementi seguiti e ai suoi token."
+     }
+    ]
+   },
+   {
+    "title": "Cosa resta sul tuo dispositivo e nel tuo iCloud",
+    "blocks": [
+     {
+      "ul": [
+       "Il gioco di pronostici (monete virtuali gratuite), le tue simulazioni e il loro storico.",
+       "L'elenco delle squadre e dei campionati che segui viene salvato anche nel tuo iCloud privato, così compare sugli altri tuoi dispositivi."
+      ]
+     },
+     {
+      "p": "Non abbiamo accesso ai tuoi dati iCloud."
+     }
+    ]
+   },
+   {
+    "title": "Funzioni di IA",
+    "blocks": [
+     {
+      "p": "Le analisi delle previsioni e la telecronaca delle partite vengono scritte sul tuo dispositivo da Apple Intelligence. Nulla di ciò che fai viene inviato a un servizio di IA. Le previsioni sono calcolate sul nostro server a partire da dati pubblici sulle partite; non vengono usati dati personali."
+     }
+    ]
+   },
+   {
+    "title": "Acquisti",
+    "blocks": [
+     {
+      "p": "Gli abbonamenti sono gestiti da Apple. Non vediamo mai i tuoi dati di pagamento; l'app verifica soltanto con Apple, sul tuo dispositivo, se un abbonamento è attivo."
+     }
+    ]
+   },
+   {
+    "title": "Dati delle partite",
+    "blocks": [
+     {
+      "p": "Risultati, formazioni e statistiche provengono da API-Football. L'app richiede i dati delle partite al nostro server; l'identificativo del tuo dispositivo serve solo ad autorizzare queste richieste e non viene trasmesso a terzi."
+     }
+    ]
+   },
+   {
+    "title": "Le tue scelte",
+    "blocks": [
+     {
+      "ul": [
+       "Disattiva le notifiche nell'app o nelle Impostazioni di iOS in qualsiasi momento.",
+       "Eliminando l'app si cancellano i dati sul tuo dispositivo; i dati sul server vengono eliminati dopo sei mesi di inutilizzo, o prima se ci scrivi.",
+       "Puoi chiedere l'accesso ai dati conservati per il tuo dispositivo o la loro cancellazione: support@ardasnturk.com"
+      ]
+     }
+    ]
+   },
+   {
+    "title": "Minori",
+    "blocks": [
+     {
+      "p": "Kickoff non è rivolta ai minori di 13 anni e non raccoglie consapevolmente i loro dati."
+     }
+    ]
+   },
+   {
+    "title": "Modifiche",
+    "blocks": [
+     {
+      "p": "Aggiorneremo questa pagina quando cambierà il modo in cui l'app tratta i dati. Ultimo aggiornamento: 2026-10-21."
+     }
+    ]
+   }
+  ]
+ },
+ "support": {
+  "title": "Assistenza",
+  "updated": "2026-10-21",
+  "intro": [
+   {
+    "p": "Domande, problemi o idee? Scrivi a support@ardasnturk.com. Di solito rispondiamo entro due giorni lavorativi."
+   }
+  ],
+  "sections": [
+   {
+    "title": "Domande frequenti",
+    "blocks": [
+     {
+      "ul": [
+       "**Le notifiche non arrivano.** Controlla che le notifiche di Kickoff siano consentite nelle Impostazioni di iOS e di seguire la squadra (stella nella sua pagina) o la partita (campanella nella pagina della partita).",
+       "**Come disdico Kickoff Pro?** Apri l'app Impostazioni › il tuo nome › Abbonamenti, oppure Settings › Manage subscription in Kickoff. Disdici almeno 24 ore prima della data di rinnovo.",
+       "**Ho acquistato Pro ma le funzioni di IA sono bloccate.** In Kickoff, apri Settings › Restore purchases avendo effettuato l'accesso con lo stesso Account Apple.",
+       "**Perché manca la previsione per una partita?** Il modello ha bisogno di alcune partite di campionato di entrambe le squadre; le partite di coppa e le prime settimane di stagione spesso non ne hanno ancora abbastanza.",
+       "**Il gioco di pronostici prevede denaro?** No. Le monete sono gratuite, non si possono acquistare e non hanno valore al di fuori del gioco.",
+       "**Chi fornisce i dati?** I dati delle partite provengono da API-Football. Le previsioni sono stime statistiche a scopo di intrattenimento, non consigli per le scommesse."
+      ]
+     }
+    ]
+   }
+  ]
+ }
+}
