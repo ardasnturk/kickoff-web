@@ -111,8 +111,8 @@
      {
       "ul": [
        "**As notificações não chegam.** Verifique se as notificações do Kickoff estão permitidas nos Ajustes do iOS e se você segue o time (estrela na página dele) ou o jogo (sino na página da partida).",
-       "**Como cancelo o Kickoff Pro?** Abra o app Ajustes › seu nome › Assinaturas, ou Settings › Manage subscription no Kickoff. Cancele pelo menos 24 horas antes da data de renovação.",
-       "**Comprei o Pro, mas os recursos de IA estão bloqueados.** No Kickoff, abra Settings › Restore purchases com a sessão iniciada na mesma Conta Apple.",
+       "**Como cancelo o Kickoff Pro?** Abra o app Ajustes › seu nome › Assinaturas, ou Ajustes › Gerenciar assinatura no Kickoff. Cancele pelo menos 24 horas antes da data de renovação.",
+       "**Comprei o Pro, mas os recursos de IA estão bloqueados.** No Kickoff, abra Ajustes › Restaurar compras com a sessão iniciada na mesma Conta Apple.",
        "**Por que não há previsão para um jogo?** O modelo precisa de alguns jogos de liga dos dois times; jogos de copa e as primeiras semanas de uma temporada muitas vezes ainda não têm o suficiente.",
        "**O jogo de palpites envolve dinheiro?** Não. As moedas são grátis, não podem ser compradas e não têm valor fora do jogo.",
        "**Quem fornece os dados?** Os dados das partidas vêm da API-Football. As previsões são estimativas estatísticas para entretenimento, não dicas de apostas."

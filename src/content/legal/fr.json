@@ -111,8 +111,8 @@
      {
       "ul": [
        "**Les notifications n'arrivent pas.** Vérifiez que les notifications de Kickoff sont autorisées dans les Réglages d'iOS et que vous suivez l'équipe (étoile sur sa page) ou le match (cloche sur la page du match).",
-       "**Comment résilier Kickoff Pro ?** Ouvrez l'app Réglages › votre nom › Abonnements, ou Settings › Manage subscription dans Kickoff. Résiliez au moins 24 heures avant la date de renouvellement.",
-       "**J'ai acheté Pro mais les fonctionnalités d'IA sont verrouillées.** Dans Kickoff, ouvrez Settings › Restore purchases en étant connecté avec le même compte Apple.",
+       "**Comment résilier Kickoff Pro ?** Ouvrez l'app Réglages › votre nom › Abonnements, ou Réglages › Gérer l'abonnement dans Kickoff. Résiliez au moins 24 heures avant la date de renouvellement.",
+       "**J'ai acheté Pro mais les fonctionnalités d'IA sont verrouillées.** Dans Kickoff, ouvrez Réglages › Restaurer les achats en étant connecté avec le même compte Apple.",
        "**Pourquoi n'y a-t-il pas de prévision pour un match ?** Le modèle a besoin de quelques matchs de championnat des deux équipes ; les matchs de coupe et les premières semaines d'une saison n'en ont souvent pas encore assez.",
        "**Le jeu de pronostics implique-t-il de l'argent ?** Non. Les pièces sont gratuites, ne peuvent pas être achetées et n'ont aucune valeur en dehors du jeu.",
        "**Qui fournit les données ?** Les données des matchs proviennent d'API-Football. Les prévisions sont des estimations statistiques à but de divertissement, pas des conseils de paris."

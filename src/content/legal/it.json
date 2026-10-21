@@ -111,8 +111,8 @@
      {
       "ul": [
        "**Le notifiche non arrivano.** Controlla che le notifiche di Kickoff siano consentite nelle Impostazioni di iOS e di seguire la squadra (stella nella sua pagina) o la partita (campanella nella pagina della partita).",
-       "**Come disdico Kickoff Pro?** Apri l'app Impostazioni › il tuo nome › Abbonamenti, oppure Settings › Manage subscription in Kickoff. Disdici almeno 24 ore prima della data di rinnovo.",
-       "**Ho acquistato Pro ma le funzioni di IA sono bloccate.** In Kickoff, apri Settings › Restore purchases avendo effettuato l'accesso con lo stesso Account Apple.",
+       "**Come disdico Kickoff Pro?** Apri l'app Impostazioni › il tuo nome › Abbonamenti, oppure Impostazioni › Gestisci abbonamento in Kickoff. Disdici almeno 24 ore prima della data di rinnovo.",
+       "**Ho acquistato Pro ma le funzioni di IA sono bloccate.** In Kickoff, apri Impostazioni › Ripristina acquisti avendo effettuato l'accesso con lo stesso Account Apple.",
        "**Perché manca la previsione per una partita?** Il modello ha bisogno di alcune partite di campionato di entrambe le squadre; le partite di coppa e le prime settimane di stagione spesso non ne hanno ancora abbastanza.",
        "**Il gioco di pronostici prevede denaro?** No. Le monete sono gratuite, non si possono acquistare e non hanno valore al di fuori del gioco.",
        "**Chi fornisce i dati?** I dati delle partite provengono da API-Football. Le previsioni sono stime statistiche a scopo di intrattenimento, non consigli per le scommesse."
