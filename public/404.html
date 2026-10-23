@@ -3,21 +3,74 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Page not found – Kickoff</title>
+    <title>Kickoff</title>
     <meta name="robots" content="noindex" />
-    <meta http-equiv="refresh" content="3; url=/" />
+    <meta property="og:title" content="Kickoff – football live scores" />
+    <meta property="og:image" content="https://kickoff.ardasnturk.com/assets/og.png" />
     <style>
       body { margin: 0; min-height: 100vh; display: grid; place-items: center; background: #eaf2ff; color: #0b1340;
         font: 17px/1.5 ui-rounded, ui-sans-serif, system-ui, -apple-system, sans-serif; text-align: center; padding: 16px; }
+      main { max-width: 420px; }
       h1 { font-size: 2rem; margin: 0 0 0.5rem; }
+      img { width: 96px; height: 96px; border-radius: 22px; box-shadow: 0 8px 24px rgba(11, 19, 64, 0.18); }
       a { color: #2457e6; font-weight: 600; }
-      @media (prefers-color-scheme: dark) { body { background: #060a26; color: #eaf2ff; } a { color: #8aa8ff; } }
+      .button { display: inline-block; margin: 20px 0 12px; padding: 14px 28px; border-radius: 16px; background: #2457e6;
+        color: #fff; text-decoration: none; }
+      [hidden] { display: none; }
+      @media (prefers-color-scheme: dark) { body { background: #060a26; color: #eaf2ff; } a { color: #8aa8ff; } .button { color: #fff; } }
     </style>
   </head>
   <body>
-    <main>
-      <h1>Offside! Page not found</h1>
-      <p><a href="/">Go to the Kickoff home page</a></p>
+    <!-- GitHub Pages serves this page for every unknown path. Shared app links (/match/123, /team/50, /league/39,
+         /live) open the app straight away when it is installed (apple-app-site-association); everyone else lands
+         here and gets a button into the app or to the home page. Other paths are a plain "not found". -->
+    <main id="app" hidden>
+      <img src="/assets/icon.png" alt="" />
+      <h1 id="app-title">Open in Kickoff</h1>
+      <p id="app-text">Live scores, line-ups and statistics for this match are in the Kickoff app.</p>
+      <a class="button" id="open" href="/">Open in Kickoff</a>
+      <p><a href="/" id="home">Get Kickoff for iPhone</a></p>
     </main>
+    <main id="missing">
+      <h1 id="missing-title">Offside! Page not found</h1>
+      <p><a href="/" id="missing-home">Go to the Kickoff home page</a></p>
+    </main>
+    <script>
+      (function () {
+        var texts = {
+          en: { title: "Open in Kickoff", match: "Live scores, line-ups and statistics for this match are in the Kickoff app.",
+            other: "Follow it live in the Kickoff app.", open: "Open in Kickoff", home: "Get Kickoff for iPhone",
+            missing: "Offside! Page not found", missingHome: "Go to the Kickoff home page" },
+          tr: { title: "Kickoff'ta aç", match: "Bu maçın canlı skoru, kadroları ve istatistikleri Kickoff uygulamasında.",
+            other: "Kickoff uygulamasında canlı takip et.", open: "Kickoff'ta aç", home: "iPhone için Kickoff'u indir",
+            missing: "Ofsayt! Sayfa bulunamadı", missingHome: "Kickoff ana sayfasına git" }
+        };
+        var language = (navigator.language || "en").slice(0, 2);
+        var t = texts[language] || texts.en;
+        document.documentElement.lang = texts[language] ? language : "en";
+        document.getElementById("missing-title").textContent = t.missing;
+        document.getElementById("missing-home").textContent = t.missingHome;
+
+        var parts = location.pathname.split("/").filter(Boolean);
+        var kind = parts[0], id = parts[1];
+        var isLink = (["match", "team", "league"].indexOf(kind) >= 0 && /^\d+$/.test(id || "")) || (kind === "live" && parts.length === 1);
+        if (!isLink) {
+          // Unknown page: back to the home page after a moment.
+          setTimeout(function () { location.replace("/"); }, 3000);
+          return;
+        }
+        document.title = t.title + " – Kickoff";
+        document.getElementById("app-title").textContent = t.title;
+        document.getElementById("app-text").textContent = kind === "match" ? t.match : t.other;
+        var open = document.getElementById("open");
+        open.textContent = t.open;
+        // The same link with the app's own scheme, for browsers that don't hand universal links to the app
+        // (a link typed into Safari, or opened from this site itself).
+        open.href = "kickoff://" + kind + (id ? "/" + id : "");
+        document.getElementById("home").textContent = t.home;
+        document.getElementById("missing").hidden = true;
+        document.getElementById("app").hidden = false;
+      })();
+    </script>
   </body>
 </html>

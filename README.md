@@ -10,6 +10,9 @@ Live at **https://kickoff.ardasnturk.com**
 - `/privacy/` – privacy policy (linked from the app and App Store Connect)
 - `/terms/` – terms of use (summary of Apple's standard EULA plus the Kickoff Pro subscription terms)
 - `/support/` – support page (App Store support URL)
+- `/match/<id>`, `/team/<id>`, `/league/<id>`, `/live` – links shared from the app. They open the app where it is
+  installed (universal links, `public/.well-known/apple-app-site-association`); otherwise GitHub Pages serves
+  `public/404.html`, which shows an "Open in Kickoff" button (the `kickoff://` scheme) and a link to the home page.
 
 Every page accepts `?lang=<code>` (`en`, `en-GB`, `tr`, `de`, `fr`, `es`, `es-MX`, `it`, `pt-BR`, `ja`, `ko`,
 `zh-Hans`, `ru`, `ar`); without it the saved choice, then the browser language is used.

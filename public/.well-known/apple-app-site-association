@@ -1,0 +1,15 @@
+{
+  "applinks": {
+    "details": [
+      {
+        "appIDs": ["5JMD3VSD7N.com.ardasenturk.kickoff.app"],
+        "components": [
+          { "/": "/match/*", "comment": "A match shared from the app" },
+          { "/": "/team/*", "comment": "A team" },
+          { "/": "/league/*", "comment": "A league" },
+          { "/": "/live", "comment": "Live matches" }
+        ]
+      }
+    ]
+  }
+}
